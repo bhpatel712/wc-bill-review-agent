@@ -1,0 +1,36 @@
+# Real Azure OpenAI credentials live here -- never build these into an
+# image layer. Supply them at `docker run` time instead:
+#     docker run --rm -p 8000:8000 --env-file agent/.env wc-bill-review-agent
+agent/.env
+
+# Local dev environments / VCS -- irrelevant inside the container, which
+# gets its own interpreter and its own pip install of requirements.txt.
+.venv/
+.venv_sim/
+.git/
+.DS_Store
+
+# Python caches -- regenerated on first import inside the container;
+# shipping the host's own compiled bytecode is pointless and can even be
+# wrong if the container's Python version differs from the host's.
+**/__pycache__/
+**/*.pyc
+
+# Dev-only artifacts not read by the running API: MLflow's local
+# tracking store/UI data (models/mlruns/, mlruns.db -- inference.py
+# loads models/model_xgboost.pkl directly, not through MLflow), the
+# Week 3 drift-monitoring demo's synthetic "later batch" of bills
+# (data-generation/output/drift_batch/), and the Week 1 reference-data
+# build's intermediate SQLite database (data-generation/wc_bill_review.db
+# -- retrieve.py/features.py/code_lookup.py all read the reference CSVs
+# and synthetic_bills.jsonl directly, not this db).
+models/mlruns/
+mlruns.db
+data-generation/output/drift_batch/
+data-generation/wc_bill_review.db
+
+# Not needed to serve requests; kept in the repo for humans, not the API.
+monitoring/
+docs/
+infra/
+*.md

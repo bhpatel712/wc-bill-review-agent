@@ -1,0 +1,45 @@
+code,description,category,unit_basis
+99202,"New patient office visit, straightforward decision making",E/M,per encounter
+99203,"New patient office visit, low complexity decision making",E/M,per encounter
+99204,"New patient office visit, moderate complexity decision making",E/M,per encounter
+99205,"New patient office visit, high complexity decision making",E/M,per encounter
+99212,"Established patient office visit, straightforward decision making",E/M,per encounter
+99213,"Established patient office visit, low complexity decision making",E/M,per encounter
+99214,"Established patient office visit, moderate complexity decision making",E/M,per encounter
+99215,"Established patient office visit, high complexity decision making",E/M,per encounter
+99221,"Initial hospital care, low complexity",E/M,per encounter
+99231,"Subsequent hospital care, low complexity",E/M,per encounter
+97110,"Therapeutic exercise for strength, endurance, or range of motion",PT/OT,15-min unit
+97112,"Neuromuscular reeducation of movement, balance, and coordination",PT/OT,15-min unit
+97116,Gait training therapy,PT/OT,15-min unit
+97140,"Manual therapy techniques, one or more regions",PT/OT,15-min unit
+97530,"Therapeutic activities, direct patient contact",PT/OT,15-min unit
+97535,Self-care / home management training,PT/OT,15-min unit
+97124,"Massage therapy, including effleurage and petrissage",PT/OT,15-min unit
+23472,Total shoulder arthroplasty,Surgery-Ortho,per procedure
+27130,Total hip arthroplasty,Surgery-Ortho,per procedure
+27447,Total knee arthroplasty,Surgery-Ortho,per procedure
+29826,"Arthroscopic subacromial decompression, shoulder",Surgery-Ortho,per procedure
+29827,"Arthroscopic rotator cuff repair, shoulder",Surgery-Ortho,per procedure
+29877,"Arthroscopic chondroplasty, knee",Surgery-Ortho,per procedure
+29880,"Arthroscopic meniscectomy, medial and lateral, knee",Surgery-Ortho,per procedure
+29881,"Arthroscopic meniscectomy, single compartment, knee",Surgery-Ortho,per procedure
+29862,Hip arthroscopy with labral repair,Surgery-Ortho,per procedure
+25607,"Open reduction internal fixation, distal radius fracture",Surgery-Ortho,per procedure
+26720,Closed treatment of phalangeal shaft fracture with percutaneous fixation,Surgery-Ortho,per digit
+27758,"Open reduction internal fixation, tibial shaft fracture",Surgery-Ortho,per procedure
+23600,"Closed treatment of shoulder fracture, without manipulation",Fracture-Care,per procedure
+24500,"Closed treatment of humeral shaft fracture, without manipulation",Fracture-Care,per procedure
+24505,"Closed treatment of humeral shaft fracture, with manipulation",Fracture-Care,per procedure
+20550,Injection of tendon sheath or ligament,Injection,per site
+20605,"Arthrocentesis, aspiration/injection, intermediate joint",Injection,per joint
+20610,"Arthrocentesis, aspiration/injection, major joint",Injection,per joint
+29075,Application of short arm cast,Cast-Splint,per limb
+29125,"Application of short arm splint, static",Cast-Splint,per limb
+29405,Application of short leg cast,Cast-Splint,per limb
+20670,"Removal of superficial implant (e.g. pin, wire)",Surgery-Ortho,per procedure
+20680,"Removal of deep implant (e.g. buried plate, screw, rod)",Surgery-Ortho,per procedure
+72110,"X-ray, lumbar spine, 4 or more views",Radiology,per study
+73030,"X-ray, shoulder, 2 or more views",Radiology,per study
+73721,"MRI, lower extremity joint, without contrast",Radiology,per study
+72148,"MRI, lumbar spine, without contrast",Radiology,per study

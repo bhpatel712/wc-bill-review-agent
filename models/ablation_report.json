@@ -1,0 +1,222 @@
+{
+  "logistic_regression": {
+    "per_label": {
+      "label_unbundling": {
+        "precision": 0.619,
+        "recall": 0.975,
+        "f1": 0.7573
+      },
+      "label_fragmented_billing": {
+        "precision": 0.7308,
+        "recall": 0.95,
+        "f1": 0.8261
+      },
+      "label_causality_mismatch": {
+        "precision": 0.0598,
+        "recall": 0.525,
+        "f1": 0.1074
+      },
+      "label_upcoding": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "any_flag_threshold_sweep": [
+      {
+        "threshold": 0.1,
+        "precision": 0.2207,
+        "recall": 1.0,
+        "flags_raised": 725,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.2,
+        "precision": 0.2207,
+        "recall": 1.0,
+        "flags_raised": 725,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.3,
+        "precision": 0.2239,
+        "recall": 0.9938,
+        "flags_raised": 710,
+        "missed_violations": 1
+      },
+      {
+        "threshold": 0.4,
+        "precision": 0.2432,
+        "recall": 0.9563,
+        "flags_raised": 629,
+        "missed_violations": 7
+      },
+      {
+        "threshold": 0.5,
+        "precision": 0.2884,
+        "recall": 0.8688,
+        "flags_raised": 482,
+        "missed_violations": 21
+      },
+      {
+        "threshold": 0.6,
+        "precision": 0.4,
+        "recall": 0.7875,
+        "flags_raised": 315,
+        "missed_violations": 34
+      },
+      {
+        "threshold": 0.7,
+        "precision": 0.599,
+        "recall": 0.7375,
+        "flags_raised": 197,
+        "missed_violations": 42
+      },
+      {
+        "threshold": 0.8,
+        "precision": 0.7959,
+        "recall": 0.7312,
+        "flags_raised": 147,
+        "missed_violations": 43
+      },
+      {
+        "threshold": 0.9,
+        "precision": 0.9098,
+        "recall": 0.6937,
+        "flags_raised": 122,
+        "missed_violations": 49
+      }
+    ]
+  },
+  "xgboost": {
+    "per_label": {
+      "label_unbundling": {
+        "precision": 0.9722,
+        "recall": 0.875,
+        "f1": 0.9211
+      },
+      "label_fragmented_billing": {
+        "precision": 0.9737,
+        "recall": 0.925,
+        "f1": 0.9487
+      },
+      "label_causality_mismatch": {
+        "precision": 0.3333,
+        "recall": 0.025,
+        "f1": 0.0465
+      },
+      "label_upcoding": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "any_flag_threshold_sweep": [
+      {
+        "threshold": 0.1,
+        "precision": 0.5869,
+        "recall": 0.7812,
+        "flags_raised": 213,
+        "missed_violations": 35
+      },
+      {
+        "threshold": 0.2,
+        "precision": 0.8489,
+        "recall": 0.7375,
+        "flags_raised": 139,
+        "missed_violations": 42
+      },
+      {
+        "threshold": 0.3,
+        "precision": 0.9,
+        "recall": 0.7312,
+        "flags_raised": 130,
+        "missed_violations": 43
+      },
+      {
+        "threshold": 0.4,
+        "precision": 0.9667,
+        "recall": 0.725,
+        "flags_raised": 120,
+        "missed_violations": 44
+      },
+      {
+        "threshold": 0.5,
+        "precision": 0.9658,
+        "recall": 0.7063,
+        "flags_raised": 117,
+        "missed_violations": 47
+      },
+      {
+        "threshold": 0.6,
+        "precision": 0.9825,
+        "recall": 0.7,
+        "flags_raised": 114,
+        "missed_violations": 48
+      },
+      {
+        "threshold": 0.7,
+        "precision": 0.9912,
+        "recall": 0.7,
+        "flags_raised": 113,
+        "missed_violations": 48
+      },
+      {
+        "threshold": 0.8,
+        "precision": 0.991,
+        "recall": 0.6875,
+        "flags_raised": 111,
+        "missed_violations": 50
+      },
+      {
+        "threshold": 0.9,
+        "precision": 1.0,
+        "recall": 0.65,
+        "flags_raised": 104,
+        "missed_violations": 56
+      }
+    ]
+  },
+  "_features_used": [
+    "total_billed",
+    "num_lines",
+    "total_units",
+    "documentation_level",
+    "is_new_patient",
+    "days_since_injury",
+    "min_pair_cooccurrence",
+    "num_modifier59_lines",
+    "provider_charge_zscore",
+    "provider_lines_zscore",
+    "has_surgical_code",
+    "has_pt_code",
+    "has_imaging_code",
+    "has_injection_code",
+    "early_stage_surgery_flag",
+    "em_level_billed",
+    "injury_stage_early",
+    "injury_stage_late",
+    "injury_stage_mid",
+    "provider_specialty_Occupational Medicine",
+    "provider_specialty_Orthopedic Surgery",
+    "provider_specialty_Pain Management",
+    "provider_specialty_Physical Therapy",
+    "provider_specialty_Primary Care",
+    "injury_body_region_ankle-foot",
+    "injury_body_region_elbow",
+    "injury_body_region_head",
+    "injury_body_region_hip",
+    "injury_body_region_knee",
+    "injury_body_region_shoulder",
+    "injury_body_region_spine-cervical",
+    "injury_body_region_spine-lumbar",
+    "injury_body_region_wrist-hand"
+  ],
+  "_features_dropped": [
+    "has_unbypassed_ncci_pair",
+    "any_line_exceeds_mue",
+    "max_units_mue_ratio",
+    "diag_procedure_match_score",
+    "em_doc_level_gap"
+  ]
+}

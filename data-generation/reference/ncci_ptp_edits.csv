@@ -1,0 +1,13 @@
+column1_code,column2_code,modifier_indicator,rationale,source
+29827,29826,1,"Subacromial decompression is bundled into rotator cuff repair on the same shoulder, same session, unless documented as a distinct procedure.",cms_documented
+29881,29877,1,"Chondroplasty is bundled into meniscectomy on the same knee compartment, same session.",cms_documented
+29880,29877,1,"Chondroplasty is bundled into meniscectomy on the same knee, same session.",cms_documented
+97110,97140,1,Manual therapy and therapeutic exercise are bundled on the same date unless distinct regions/timed segments are documented.,cms_documented
+97530,97112,1,Therapeutic activities and neuromuscular reeducation are bundled on the same date unless distinct timed segments are documented.,cms_documented
+27447,29881,0,"Arthroscopic meniscectomy is bundled into total knee arthroplasty performed on the same knee, same session.",illustrative_pattern
+23472,29826,0,"Arthroscopic subacromial decompression is bundled into total shoulder arthroplasty on the same shoulder, same session.",illustrative_pattern
+27130,29862,0,"Hip arthroscopy with labral repair is bundled into total hip arthroplasty on the same hip, same session.",illustrative_pattern
+97116,97110,1,Gait training and therapeutic exercise are bundled on the same date unless distinct timed segments are documented.,illustrative_pattern
+20610,20605,1,Major and intermediate joint injections on the same date are bundled unless performed on clinically distinct joints.,illustrative_pattern
+25607,20680,1,"Deep implant removal is bundled into open reduction internal fixation performed at the same operative site, same session.",illustrative_pattern
+29862,20610,1,"Major joint injection is bundled into hip arthroscopy with labral repair on the same hip, same session.",illustrative_pattern

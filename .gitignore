@@ -1,0 +1,20 @@
+# Real Azure OpenAI credentials -- never commit these.
+agent/.env
+
+# Local dev environments / editor / OS cruft
+.venv/
+.venv_sim/
+.DS_Store
+**/__pycache__/
+**/*.pyc
+
+# Regenerable local artifacts (deterministic, fixed seeds -- see README
+# "Running it end to end") -- kept out of git so the repo stays small
+# and the demo stays honest about what's source vs. generated output.
+models/mlruns/
+mlruns.db
+agent/chroma_db/
+data-generation/output/
+
+# Environment file templates are fine to keep -- only the real one is excluded.
+!agent/.env.example

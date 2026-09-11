@@ -1,0 +1,138 @@
+{
+  "label_unbundling": [
+    {
+      "feature": "has_unbypassed_ncci_pair",
+      "coef": 2.9943
+    },
+    {
+      "feature": "num_lines",
+      "coef": 0.7941
+    },
+    {
+      "feature": "has_surgical_code",
+      "coef": 0.2392
+    },
+    {
+      "feature": "early_stage_surgery_flag",
+      "coef": 0.2276
+    },
+    {
+      "feature": "total_billed",
+      "coef": 0.215
+    },
+    {
+      "feature": "min_pair_cooccurrence",
+      "coef": -0.2055
+    },
+    {
+      "feature": "has_pt_code",
+      "coef": 0.1686
+    },
+    {
+      "feature": "num_modifier59_lines",
+      "coef": -0.1159
+    }
+  ],
+  "label_fragmented_billing": [
+    {
+      "feature": "any_line_exceeds_mue",
+      "coef": 2.5192
+    },
+    {
+      "feature": "max_units_mue_ratio",
+      "coef": 0.9993
+    },
+    {
+      "feature": "total_units",
+      "coef": 0.8588
+    },
+    {
+      "feature": "num_lines",
+      "coef": -0.2919
+    },
+    {
+      "feature": "total_billed",
+      "coef": 0.1847
+    },
+    {
+      "feature": "has_unbypassed_ncci_pair",
+      "coef": -0.1233
+    },
+    {
+      "feature": "diag_procedure_match_score",
+      "coef": 0.0984
+    },
+    {
+      "feature": "injury_body_region_ankle-foot",
+      "coef": -0.0821
+    }
+  ],
+  "label_causality_mismatch": [
+    {
+      "feature": "diag_procedure_match_score",
+      "coef": -3.2489
+    },
+    {
+      "feature": "injury_body_region_head",
+      "coef": -0.1105
+    },
+    {
+      "feature": "has_unbypassed_ncci_pair",
+      "coef": -0.097
+    },
+    {
+      "feature": "injury_body_region_ankle-foot",
+      "coef": 0.0747
+    },
+    {
+      "feature": "any_line_exceeds_mue",
+      "coef": -0.07
+    },
+    {
+      "feature": "em_doc_level_gap",
+      "coef": -0.0632
+    },
+    {
+      "feature": "max_units_mue_ratio",
+      "coef": -0.0484
+    },
+    {
+      "feature": "has_surgical_code",
+      "coef": 0.0361
+    }
+  ],
+  "label_upcoding": [
+    {
+      "feature": "em_doc_level_gap",
+      "coef": 3.7225
+    },
+    {
+      "feature": "em_level_billed",
+      "coef": 1.027
+    },
+    {
+      "feature": "documentation_level",
+      "coef": -0.6502
+    },
+    {
+      "feature": "diag_procedure_match_score",
+      "coef": 0.1484
+    },
+    {
+      "feature": "min_pair_cooccurrence",
+      "coef": 0.1324
+    },
+    {
+      "feature": "has_unbypassed_ncci_pair",
+      "coef": -0.1143
+    },
+    {
+      "feature": "provider_charge_zscore",
+      "coef": -0.1119
+    },
+    {
+      "feature": "any_line_exceeds_mue",
+      "coef": -0.1025
+    }
+  ]
+}

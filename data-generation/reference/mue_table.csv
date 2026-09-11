@@ -1,0 +1,45 @@
+code,mue_units,rationale
+99202,1,E/M visit codes: one encounter of a given level per provider per day.
+99203,1,E/M visit codes: one encounter of a given level per provider per day.
+99204,1,E/M visit codes: one encounter of a given level per provider per day.
+99205,1,E/M visit codes: one encounter of a given level per provider per day.
+99212,1,E/M visit codes: one encounter of a given level per provider per day.
+99213,1,E/M visit codes: one encounter of a given level per provider per day.
+99214,1,E/M visit codes: one encounter of a given level per provider per day.
+99215,1,E/M visit codes: one encounter of a given level per provider per day.
+99221,1,E/M visit codes: one encounter of a given level per provider per day.
+99231,1,E/M visit codes: one encounter of a given level per provider per day.
+97110,4,15-minute timed therapy codes: CMS convention caps most at ~4 units (~1 hour) per day absent unusual documentation.
+97112,4,15-minute timed therapy codes: CMS convention caps most at ~4 units (~1 hour) per day absent unusual documentation.
+97116,4,15-minute timed therapy codes: CMS convention caps most at ~4 units (~1 hour) per day absent unusual documentation.
+97140,4,15-minute timed therapy codes: CMS convention caps most at ~4 units (~1 hour) per day absent unusual documentation.
+97530,4,15-minute timed therapy codes: CMS convention caps most at ~4 units (~1 hour) per day absent unusual documentation.
+97124,4,15-minute timed therapy codes: CMS convention caps most at ~4 units (~1 hour) per day absent unusual documentation.
+97535,2,Self-care/home management training: shorter typical session length than core PT/OT codes.
+23472,1,Discrete surgical procedure: one occurrence per operative site per day.
+27130,1,Discrete surgical procedure: one occurrence per operative site per day.
+27447,1,Discrete surgical procedure: one occurrence per operative site per day.
+29826,1,Discrete surgical procedure: one occurrence per operative site per day.
+29827,1,Discrete surgical procedure: one occurrence per operative site per day.
+29877,1,Discrete surgical procedure: one occurrence per operative site per day.
+29880,1,Discrete surgical procedure: one occurrence per operative site per day.
+29881,1,Discrete surgical procedure: one occurrence per operative site per day.
+29862,1,Discrete surgical procedure: one occurrence per operative site per day.
+25607,1,Discrete surgical procedure: one occurrence per operative site per day.
+26720,1,Discrete surgical procedure: one occurrence per operative site per day.
+27758,1,Discrete surgical procedure: one occurrence per operative site per day.
+23600,1,Discrete surgical procedure: one occurrence per operative site per day.
+24500,1,Discrete surgical procedure: one occurrence per operative site per day.
+24505,1,Discrete surgical procedure: one occurrence per operative site per day.
+20670,1,Discrete surgical procedure: one occurrence per operative site per day.
+20680,1,Discrete surgical procedure: one occurrence per operative site per day.
+20550,1,"Single tendon sheath/ligament injection site per day, absent multi-site documentation."
+20605,2,Intermediate joint injection: allows for bilateral joints in one day.
+20610,2,Major joint injection: allows for bilateral joints in one day.
+29075,1,One cast/splint application per limb per day.
+29125,1,One cast/splint application per limb per day.
+29405,1,One cast/splint application per limb per day.
+72110,1,"One imaging study of a given type per day, absent re-imaging documentation."
+73030,1,"One imaging study of a given type per day, absent re-imaging documentation."
+73721,1,"One imaging study of a given type per day, absent re-imaging documentation."
+72148,1,"One imaging study of a given type per day, absent re-imaging documentation."

@@ -1,0 +1,138 @@
+{
+  "label_unbundling": [
+    {
+      "feature": "has_unbypassed_ncci_pair",
+      "importance": 0.5859
+    },
+    {
+      "feature": "num_lines",
+      "importance": 0.3158
+    },
+    {
+      "feature": "total_units",
+      "importance": 0.0746
+    },
+    {
+      "feature": "em_level_billed",
+      "importance": 0.0154
+    },
+    {
+      "feature": "total_billed",
+      "importance": 0.0082
+    },
+    {
+      "feature": "min_pair_cooccurrence",
+      "importance": 0.0001
+    },
+    {
+      "feature": "documentation_level",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_new_patient",
+      "importance": 0.0
+    }
+  ],
+  "label_fragmented_billing": [
+    {
+      "feature": "max_units_mue_ratio",
+      "importance": 0.7696
+    },
+    {
+      "feature": "any_line_exceeds_mue",
+      "importance": 0.2281
+    },
+    {
+      "feature": "total_billed",
+      "importance": 0.0023
+    },
+    {
+      "feature": "days_since_injury",
+      "importance": 0.0
+    },
+    {
+      "feature": "num_lines",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_units",
+      "importance": 0.0
+    },
+    {
+      "feature": "documentation_level",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_new_patient",
+      "importance": 0.0
+    }
+  ],
+  "label_causality_mismatch": [
+    {
+      "feature": "diag_procedure_match_score",
+      "importance": 0.9995
+    },
+    {
+      "feature": "days_since_injury",
+      "importance": 0.0003
+    },
+    {
+      "feature": "total_billed",
+      "importance": 0.0002
+    },
+    {
+      "feature": "provider_charge_zscore",
+      "importance": 0.0
+    },
+    {
+      "feature": "num_lines",
+      "importance": 0.0
+    },
+    {
+      "feature": "total_units",
+      "importance": 0.0
+    },
+    {
+      "feature": "documentation_level",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_new_patient",
+      "importance": 0.0
+    }
+  ],
+  "label_upcoding": [
+    {
+      "feature": "em_doc_level_gap",
+      "importance": 0.7843
+    },
+    {
+      "feature": "em_level_billed",
+      "importance": 0.1119
+    },
+    {
+      "feature": "documentation_level",
+      "importance": 0.1033
+    },
+    {
+      "feature": "has_pt_code",
+      "importance": 0.0003
+    },
+    {
+      "feature": "total_billed",
+      "importance": 0.0002
+    },
+    {
+      "feature": "days_since_injury",
+      "importance": 0.0
+    },
+    {
+      "feature": "provider_lines_zscore",
+      "importance": 0.0
+    },
+    {
+      "feature": "num_lines",
+      "importance": 0.0
+    }
+  ]
+}

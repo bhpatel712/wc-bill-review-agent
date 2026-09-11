@@ -1,0 +1,208 @@
+{
+  "test_set_size": 800,
+  "test_set_violation_rate": 0.2,
+  "logistic_regression": {
+    "per_label": {
+      "label_unbundling": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      },
+      "label_fragmented_billing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      },
+      "label_causality_mismatch": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      },
+      "label_upcoding": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      }
+    },
+    "any_flag": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "threshold_sweep": [
+      {
+        "threshold": 0.1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.5,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.9,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      }
+    ]
+  },
+  "xgboost": {
+    "per_label": {
+      "label_unbundling": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      },
+      "label_fragmented_billing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      },
+      "label_causality_mismatch": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      },
+      "label_upcoding": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "positives_in_test": 40,
+        "positives_predicted": 40
+      }
+    },
+    "any_flag": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "threshold_sweep": [
+      {
+        "threshold": 0.1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.5,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.7,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      },
+      {
+        "threshold": 0.9,
+        "precision": 1.0,
+        "recall": 1.0,
+        "flags_raised": 160,
+        "missed_violations": 0
+      }
+    ]
+  }
+}

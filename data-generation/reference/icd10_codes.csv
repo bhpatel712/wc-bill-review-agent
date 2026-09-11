@@ -1,0 +1,22 @@
+code,description,body_region
+S39.012A,"Strain of muscle, fascia, and tendon of lower back, initial encounter",spine-lumbar
+M54.50,"Low back pain, unspecified",spine-lumbar
+S33.5XXA,"Sprain of ligaments of lumbar spine, initial encounter",spine-lumbar
+S13.4XXA,"Sprain of ligaments of cervical spine, initial encounter",spine-cervical
+S43.401A,"Sprain of unspecified rotator cuff capsule, initial encounter",shoulder
+M75.100,"Unspecified rotator cuff tear or rupture, not specified as traumatic",shoulder
+S42.001A,"Displaced fracture of unspecified part of clavicle, initial encounter",shoulder
+S83.511A,"Sprain of anterior cruciate ligament of right knee, initial encounter",knee
+S83.281A,"Other tear of medial meniscus, current injury, right knee, initial encounter",knee
+M25.561,Pain in right knee,knee
+S62.001A,"Unspecified displaced fracture of navicular bone of right wrist, initial encounter",wrist-hand
+S61.409A,"Unspecified open wound of right hand, initial encounter",wrist-hand
+S63.501A,"Unspecified sprain of right wrist, initial encounter",wrist-hand
+S73.101A,"Unspecified sprain of right hip, initial encounter",hip
+S72.001A,"Fracture of unspecified part of neck of right femur, initial encounter",hip
+S93.401A,"Sprain of unspecified ligament of right ankle, initial encounter",ankle-foot
+S92.301A,"Unspecified fracture of right foot, initial encounter",ankle-foot
+S06.0X0A,"Concussion without loss of consciousness, initial encounter",head
+G56.00,"Carpal tunnel syndrome, unspecified upper limb",wrist-hand
+S53.401A,"Unspecified sprain of right elbow, initial encounter",elbow
+M77.10,"Lateral epicondylitis, unspecified elbow",elbow

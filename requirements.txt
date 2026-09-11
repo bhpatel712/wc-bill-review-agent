@@ -1,0 +1,35 @@
+# Week 1 (data-generation/) uses only the Python standard library — no
+# installs needed for that part.
+# Week 2 (models/) needs these:
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+xgboost==3.2.0
+
+# Week 3 (models/mlflow_utils.py, monitoring/) needs this. scipy is not
+# listed separately -- scikit-learn already installs a compatible version
+# as its own dependency, and monitoring/drift_detection.py uses that.
+mlflow==3.16.0
+
+# Week 4 (agent/) -- RAG explanation agent. langchain-openai talks to
+# Azure OpenAI for generation; langchain-chroma + chromadb are the local
+# vector store; langchain-community + fastembed are the local (free, no
+# API key) embedding model used for indexing; python-dotenv loads
+# agent/.env (see agent/.env.example -- copy it and fill in your own
+# Azure OpenAI values, never commit that file or paste its values anywhere).
+langchain==1.4.0
+langchain-openai==1.6.1
+langchain-chroma==1.1.0
+langchain-community==0.4.2
+chromadb==1.5.9
+fastembed==0.8.0
+python-dotenv==1.2.2
+
+# Week 6 (api/) -- FastAPI service wrapping the trained model (Week 2) and
+# the RAG explainer (Week 4) behind HTTP endpoints. httpx is only needed
+# for FastAPI's TestClient (used to verify the API mechanically); it's not
+# a runtime dependency of the service itself, but cheap enough to just
+# always have available.
+fastapi==0.141.1
+uvicorn==0.46.0
+httpx==0.28.1

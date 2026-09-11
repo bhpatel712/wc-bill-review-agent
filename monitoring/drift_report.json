@@ -1,0 +1,128 @@
+{
+  "baseline": "training split (features.py, seed=13)",
+  "current_batch": "../data-generation/output/drift_batch/synthetic_bills.jsonl",
+  "n_baseline": 3200,
+  "n_current": 600,
+  "features": {
+    "total_billed": {
+      "type": "numeric",
+      "psi": 0.0154,
+      "ks_statistic": 0.0385,
+      "ks_pvalue": 0.430278,
+      "baseline_mean": 809.641,
+      "current_mean": 813.443,
+      "flag": "OK"
+    },
+    "num_lines": {
+      "type": "numeric",
+      "psi": 0.0012,
+      "ks_statistic": 0.0124,
+      "ks_pvalue": 0.999998,
+      "baseline_mean": 2.116,
+      "current_mean": 2.108,
+      "flag": "OK"
+    },
+    "total_units": {
+      "type": "numeric",
+      "psi": 0.0075,
+      "ks_statistic": 0.0202,
+      "ks_pvalue": 0.98351,
+      "baseline_mean": 3.132,
+      "current_mean": 3.058,
+      "flag": "OK"
+    },
+    "documentation_level": {
+      "type": "numeric",
+      "psi": 0.0061,
+      "ks_statistic": 0.0306,
+      "ks_pvalue": 0.718654,
+      "baseline_mean": 2.675,
+      "current_mean": 2.623,
+      "flag": "OK"
+    },
+    "days_since_injury": {
+      "type": "numeric",
+      "psi": 0.4546,
+      "ks_statistic": 0.545,
+      "ks_pvalue": 0.0,
+      "baseline_mean": 73.866,
+      "current_mean": 161.13,
+      "flag": "ALERT"
+    },
+    "min_pair_cooccurrence": {
+      "type": "numeric",
+      "psi": 0.0277,
+      "ks_statistic": 0.0439,
+      "ks_pvalue": 0.27758,
+      "baseline_mean": 68.871,
+      "current_mean": 70.277,
+      "flag": "OK"
+    },
+    "num_modifier59_lines": {
+      "type": "numeric",
+      "psi": 0.0,
+      "ks_statistic": 0.0068,
+      "ks_pvalue": 1.0,
+      "baseline_mean": 0.033,
+      "current_mean": 0.027,
+      "flag": "OK"
+    },
+    "provider_charge_zscore": {
+      "type": "numeric",
+      "psi": 0.0174,
+      "ks_statistic": 0.0365,
+      "ks_pvalue": 0.501377,
+      "baseline_mean": -0.001,
+      "current_mean": -0.05,
+      "flag": "OK"
+    },
+    "provider_lines_zscore": {
+      "type": "numeric",
+      "psi": 0.0142,
+      "ks_statistic": 0.0443,
+      "ks_pvalue": 0.267469,
+      "baseline_mean": -0.026,
+      "current_mean": -0.069,
+      "flag": "OK"
+    },
+    "max_units_mue_ratio": {
+      "type": "numeric",
+      "psi": 0.0564,
+      "ks_statistic": 0.0456,
+      "ks_pvalue": 0.236466,
+      "baseline_mean": 1.119,
+      "current_mean": 1.147,
+      "flag": "OK"
+    },
+    "em_level_billed": {
+      "type": "numeric",
+      "psi": 0.0166,
+      "ks_statistic": 0.0402,
+      "ks_pvalue": 0.377698,
+      "baseline_mean": 2.342,
+      "current_mean": 2.398,
+      "flag": "OK"
+    },
+    "injury_stage": {
+      "type": "categorical",
+      "psi": 0.2372,
+      "flag": "ALERT"
+    },
+    "provider_specialty": {
+      "type": "categorical",
+      "psi": 0.2107,
+      "flag": "ALERT"
+    },
+    "injury_body_region": {
+      "type": "categorical",
+      "psi": 0.0151,
+      "flag": "OK"
+    }
+  },
+  "summary": {
+    "n_features_checked": 14,
+    "n_alert": 3,
+    "n_warn": 0,
+    "overall": "ALERT"
+  }
+}
