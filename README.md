@@ -90,7 +90,7 @@ the same numbers.
   what the numbers actually mean (short version: the first evaluation
   is too easy — read this before trusting a 1.0 precision/recall).
 - `monitoring/DRIFT_MONITORING.md` — why this project needs drift
-  monitoring at all (real CMS/AMA code-set update cycles), how the PSI
+  monitoring at all, how the PSI
   / KS-test check works, and an honest read of what it did and didn't
   correctly catch on the demo batch.
 - `agent/RAG_AGENT.md` — how the explanation agent retrieves the right
