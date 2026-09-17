@@ -1,8 +1,7 @@
 # WC Bill Review & Code Anomaly Detection Agent
 
 Portfolio project: an AI system that reviews **100% synthetic** workers'
-comp medical bills against real, public coding rules (CPT/HCPCS,
-ICD-10-CM, NCCI PTP edits, CMS MUE tables) and flags likely coding
+comp medical bills against real, public coding rules (coding references and CMS/NCCI guidance) and flags likely coding
 problems — unbundling, fragmented/excessive billing, diagnosis-procedure
 causality mismatches, and up-coding.
 
