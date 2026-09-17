@@ -1,13 +1,8 @@
 # WC Bill Review & Code Anomaly Detection Agent
 
-Portfolio project: an AI system that reviews **100% synthetic** workers'
-comp medical bills against real, public coding rules (coding references and CMS/NCCI guidance) and flags likely coding
-problems — unbundling, fragmented/excessive billing, diagnosis-procedure
-causality mismatches, and up-coding.
+Portfolio project: an AI system that reviews 100% synthetic workers’ comp medical bills against a curated set of coding references and CMS/NCCI guidance and flags potential coding issues — unbundling, fragmented/excessive billing, diagnosis–procedure mismatches, and upcoding.
 
-**No real claims, bills, providers, or patients appear anywhere in this
-project.** See `data-generation/DATA_CARD.md` for exactly what's real
-(the coding rules) vs. generated (everything else).
+**Reference data note: This project uses a limited, curated reference set for demonstration purposes. Some NCCI relationships and thresholds are illustrative rather than a complete current-quarter CMS dataset. See data-generation/DATA_CARD.md for details.
 
 ## Status
 
@@ -17,16 +12,7 @@ project.** See `data-generation/DATA_CARD.md` for exactly what's real
       (`models/`)
 - [x] **Week 3** — MLflow registry + drift detection (`monitoring/`)
 - [x] **Week 4** — RAG explanation agent (`agent/`)
-- [~] Week 5 — fine-tuned narrative generator -- **deliberately cut.**
-      Scoped as a multi-violation case-narrative generator, fine-tuned on
-      a synthetic template-generated training set. Not built: Azure
-      OpenAI fine-tuning has real training-job and ongoing hourly
-      deployment-hosting costs, and the models that currently support
-      fine-tuning (GPT-4.1-mini/nano, GPT-4o-mini -- not the GPT-5.6
-      family already deployed for Week 4) would have needed a second
-      resource/region. Cut as a cost/scope decision, not a technical one
-      -- see Week 4's RAG explainer for the fine-tuning alternative
-      (retrieval + prompting) this project uses instead.
+- [~] Week 5 — Fine-tuning experiment: scoped out in favor of the RAG + retrieval approach used in
 - [x] Week 6 (partial) — FastAPI service + Docker (`api/`, `Dockerfile`) —
       **Azure deployment not done.** See `docs/DEMO.md` for a walkthrough.
 
