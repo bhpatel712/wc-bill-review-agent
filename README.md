@@ -1,12 +1,8 @@
 # WC Bill Review & Code Anomaly Detection Agent
 
-Portfolio project: an AI system that reviews 100% synthetic workers’ comp medical bills against a curated set of coding references and CMS/NCCI guidance and flags potential coding issues — unbundling, fragmented/excessive billing, diagnosis–procedure mismatches, and upcoding.
+**Portfolio project: an AI system that reviews 100% synthetic workers' comp medical bills against a curated set of coding references and CMS/NCCI guidance and flags potential coding issues — unbundling, fragmented/excessive billing, diagnosis–procedure mismatches, and upcoding.**
 
-🔒 Data & Usage Notice
-
-No real claims, bills, providers, patients, or protected health information are included anywhere in this project. All billing data, patient information, provider information, and test cases are synthetic and reproducibly generated.
-
-The coding-reference data is a limited, curated reference set for demonstration and engineering evaluation and is not a complete production coding database. This project is not intended for clinical, billing, claims-adjudication, reimbursement, or compliance decisions.
+🔒** Data & Usage Notice:** No real claims, bills, providers, or patients are included. The coding-reference data is limited and intended for demonstration and engineering evaluation, not production billing, clinical, claims-adjudication, or compliance decisions.
 
 See data-generation/DATA_CARD.md for details on what is synthetic, what reference material is used, and the project's limitations.
 ## Status
@@ -17,7 +13,7 @@ See data-generation/DATA_CARD.md for details on what is synthetic, what referenc
       (`models/`)
 - [x] **Week 3** — MLflow registry + drift detection (`monitoring/`)
 - [x] **Week 4** — RAG explanation agent (`agent/`)
-- [~] Week 5 — Fine-tuning experiment: scoped out in favor of the RAG + retrieval approach used in
+- [~] Week 5 — Fine-tuning experiment: deliberately scoped out in favor of the RAG-based explanation approach used in Week 4. This was a cost/scope decision; the RAG approach provided a simpler and more maintainable alternative for grounded explanations.
 - [x] Week 6 (partial) — FastAPI service + Docker (`api/`, `Dockerfile`) —
       **Azure deployment not done.** See `docs/DEMO.md` for a walkthrough.
 
