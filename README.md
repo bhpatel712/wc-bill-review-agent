@@ -2,8 +2,13 @@
 
 Portfolio project: an AI system that reviews 100% synthetic workers’ comp medical bills against a curated set of coding references and CMS/NCCI guidance and flags potential coding issues — unbundling, fragmented/excessive billing, diagnosis–procedure mismatches, and upcoding.
 
-**Reference data note: This project uses a limited, curated reference set for demonstration purposes. Some NCCI relationships and thresholds are illustrative rather than a complete current-quarter CMS dataset. See data-generation/DATA_CARD.md for details.
+🔒 Data & Usage Notice
 
+No real claims, bills, providers, patients, or protected health information are included anywhere in this project. All billing data, patient information, provider information, and test cases are synthetic and reproducibly generated.
+
+The coding-reference data is a limited, curated reference set for demonstration and engineering evaluation and is not a complete production coding database. This project is not intended for clinical, billing, claims-adjudication, reimbursement, or compliance decisions.
+
+See data-generation/DATA_CARD.md for details on what is synthetic, what reference material is used, and the project's limitations.
 ## Status
 
 - [x] **Week 1** — reference rule engine + synthetic bill generator
